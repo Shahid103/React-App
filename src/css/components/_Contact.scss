@@ -1,0 +1,170 @@
+.contact 
+    {height: 80vh; position: relative; width:100%; background-image: url(./img/pw_maze_black_2X.png); background-attachment: fixed;}
+
+#contact h1
+    {
+        position: absolute;
+        top: 5%; left: 8%; right: 8%;
+        color: white;
+        text-align: center;
+        font-size: 2vw;
+        font-family:  'Merienda One'
+    }
+    
+    #contact h2
+    {
+        position: absolute;
+        top: 16%; left: 8%; 
+        color: white;
+        font-size: 150%;
+    }
+    
+    #contact h3
+    {
+        position: absolute;
+        top: 16%; left: 70%; 
+        color: white;
+        font-size: 150%;
+    }
+    
+    #contact h4
+    {
+        position: absolute;
+        top: 44%; left: 72.5%; 
+        color: white;
+        font-size: 120%;
+    }
+    
+    #contact i
+    {color: white; position: absolute; font-size: 6vw; right: 20%; top:23%;}
+
+    #contact h4+p
+    {
+        position: absolute;
+        top: 48%; left: 72%; 
+        text-align: center;
+        color: gray;
+        font-size: 100%;
+    }
+    
+    #contact h5
+    {
+        position: absolute;
+        top: 59%; left: 74%; 
+        color: white;
+        font-size: 120%;
+    }
+    
+    #contact h5+p
+    {
+        position: absolute;
+        top: 63%; left: 73%; 
+        text-align: center;
+        color: gray;
+        font-size: 110%;
+    }
+    
+    #contact h6
+    {
+        position: absolute;
+        top: 71%; left: 75%; 
+        color: white;
+        font-size: 120%;
+    }
+    
+    #contact h6+p
+    {
+        position: absolute;
+        top: 75%; left: 72%; 
+        color: gray;
+        font-size: 110%;
+    }
+    
+    #contact .name
+    {
+        position: absolute;
+        top: 25%; left: 8%; 
+        height: 50px; width: 500px;
+        color: gainsboro;
+        background: none;
+        border: 0.5px solid silver;
+    }
+    
+    #contact .name::placeholder
+    {
+        color: white;
+        padding-left: 20px;
+        font-size:15px;
+        font-weight: bold;
+    }
+    
+    #contact .mail
+    {
+        position: absolute;
+        top: 35%; left: 8%; 
+        height: 50px; width: 500px;
+        color: gainsboro;
+        background: none;
+        border: 0.5px solid silver;
+    }
+    
+    #contact .mail::placeholder
+    {
+        color: white;
+        padding-left: 20px;
+        font-size:15px;
+        font-weight: bold;
+    }
+    
+    #contact .sub
+    {
+        position: absolute;
+        top: 45%; left: 8%; 
+        height: 50px; width: 500px;
+        color: gainsboro;
+        background: none;
+        border: 0.5px solid silver;
+    }
+    
+    #contact .sub::placeholder
+    {
+        color: white;
+        padding-left: 20px;
+        font-size:15px;
+        font-weight: bold;
+    }
+    
+    #contact .area
+    {
+        position: absolute;
+        top: 55%; left: 8%; 
+        height: 200px; width: 500px;
+        color: gainsboro;
+        background: none;
+        border: 0.5px solid silver;
+    }
+    
+    #contact .area::placeholder
+    {
+        color: white;
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+
+    #contact button
+    {position: absolute; bottom: 1vw; left: 8%; background: transparent; color: white; font-size: 1vw; padding: 1vw 2vw; border: 1px solid white;}
+
+    #contact button:hover
+    {box-shadow: 0px 0px .5vw white}
+
+
+
+
+
+    // .social
+    // {position: absolute; width: 15%; height: 6vh; background: blue; bottom: 1vw; right: 13vw; }
+
+    // .social .fab
+    // {font-size: 2vw !important; margin-left: 3vw !important;}

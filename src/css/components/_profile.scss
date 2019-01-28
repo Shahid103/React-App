@@ -1,0 +1,23 @@
+.profile 
+{height: 80vh; width: 100%; display: flex; justify-content: center; position: relative;}
+
+.profile h1
+{position: absolute; margin-top: 2vw; font-size: 2vw; font-family:  'Merienda One'}
+
+.data
+{width:25%; height: 65vh; position: relative; color: black; margin: 20px; text-align: center; border-radius: 10px; top: 6vw}
+
+.data h1
+{position: absolute; left: 10vw; top: 11vw; font-size: 1.3vw; font-family: serif;}
+
+.data img 
+{height: 180px; width: 180px; border-radius: 100px; margin-top: 10px; box-shadow: 0px 0px 2vw black}
+
+.profile .info
+{border-top: 1px solid !important; width: 90% ; height: 250px; margin: 30px auto; position: relative; top: 1.5vw}
+
+.info p
+{padding: 5px; font-size: 18px; padding-top: 10px ;}
+
+.profile i
+{font-size: 2vw ; color: black; margin: .8vw; cursor: pointer;}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <script src="./js/bundle.js" defer></script>
+    <script src="./js/jquery-1.7.1.min.js"></script>
+
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- <script>
+     i=0;
+    $(document).ready(function(){
+        $('.data').on('click',function(){
+            
+            if(i==0){
+                if( $(this).next().length)
+                {
+                    $(this).next().animate({left:"450px" , opacity : "1"});
+                }
+                else
+                {
+                    $(this).prev().prev().animate({left:"450px" , opacity : "1"});
+                }
+            
+                
+                if($(this).next().next().length)
+                {
+                    console.log($(this).next().next());
+                $(this).next().next().animate({left:"850px", opacity : "1"});
+                }
+                    else
+                {
+                    $(this).prev().animate({left:"850px", opacity : "1"});
+                }
+            }
+            else{
+                $(".data").animate({left:"-10px" , opacity : "1"});
+                $(".data").animate({left:"10px" , opacity : "1"});
+                i=-1;
+            }
+            i++;
+        });
+
+    })
+        
+    </script> -->
+<!-- 
+    <script>
+        $(document).ready(function(){
+        $("#adopt_today").on('mouseenter',function(){
+        $("#readmore").animate({left:"-10px" , opacity:"1"},"slow");    
+        });
+
+        $("#right").on('mouseleave',function(){
+        $("#readmore").animate({left:"1000px" , opacity:"0"},"slow"); 
+        });   
+
+        $("#goback").on('click',function(){
+        $("#readmore").animate({left:"1000px" , opacity:"0"},"slow");    
+        });
+        
+        });
+    </script> -->
+
+  </body>
+</html>

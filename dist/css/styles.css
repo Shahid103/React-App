@@ -1,0 +1,19 @@
+*{padding: 0; margin: 0;}
+
+.nav
+  {background: blue; position: relative; height: 10vh; }
+
+.nav-link
+  {font-size: 22px; cursor: pointer; text-decoration: none; color: white; float: left; list-style: none; }
+
+.home
+  {height: 80vh; width: 100%; color: black;  overflow: hidden;}
+
+.home img
+  {width: 100%; height: 80vh;}
+
+.foot
+  {font-size: 25px; text-align: center; background: black;  color:white; height: 3.6vh; width: 100%;}
+
+
+/*# sourceMappingURL=styles.css.map*/

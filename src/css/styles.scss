@@ -1,0 +1,62 @@
+@import './components/Service';
+@import './components/About';
+@import './components/profile';
+@import './components/Contact';
+@import './components/portfolio';
+
+
+
+*{padding: 0; margin: 0; }
+
+.nav
+  {background: black; position: relative; min-height: 10vh; width: 100%; }
+
+.nav h1
+  {color: #FEC80E; position: absolute; margin: 1vw 10vw; font-size: 3vw; font-family:'Cookie'; cursor: pointer}
+
+.nav li
+  {list-style: none; margin-left: 55vw; font-family: 'Merienda One' }  
+
+.nav-link
+  { font-size: 1vw; cursor: pointer;  color: white;  margin: 0.8vw; padding: 0.8vw; }
+
+.nav-link:hover
+{ border-radius: 0px !important; border-bottom: 1px solid white;}
+
+.nav img
+{position: absolute; height: 7vh; width: 3.5vw; margin: 0.7vw; left: 4%;  animation: move 5s linear infinite; box-shadow: 0px 0px 0.7vw #FEC80E; border-radius: 100vw;  }
+
+@keyframes move
+{
+    100%{transform: rotateY(360deg)}
+}
+
+
+.home
+  {height: 80vh; width: 100%;}
+
+.home video
+  {position: absolute; height: 100%; width: 100%; top: 0px; left:0px; object-fit: cover; z-index: -1;}
+
+.paragraph
+{color: white;  margin: 8vw 6vw;  height: 50vh; width: 50%;  }
+
+.paragraph h1
+{font-size: 2vw; font-family: serif !important; }
+
+.paragraph p
+{font-size: 1.2vw; font-family: serif !important; padding-top: .5vw; opacity: 1; width: 100%; text-align: justify;}
+
+
+
+
+
+.foot
+  { text-align: center; background: black;  color:white; height: 10vh; width: 100%; }
+
+.foot p
+  {padding-top: 2vw; text-align: center; font-size: 1vw;}
+
+a:hover
+{transition: all 0.3s linear; background-color: black; border-radius: 0.8vw; }
+
